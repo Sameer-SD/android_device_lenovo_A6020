@@ -21,6 +21,11 @@
 
 LOCAL_PATH := device/lenovo/A6020
 
+
+#treble
+BOARD_NEEDS_VENDORIMAGE_SYMLINL := false
+TARGET_COPY_OUT_VENDOR := vendor
+
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Asserts
